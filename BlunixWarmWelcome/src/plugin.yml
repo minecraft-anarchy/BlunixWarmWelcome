@@ -1,0 +1,11 @@
+main: com.blunix.warmwelcome.BlunixWarmWelcome
+name: BlunixWarmWelcome
+version: 1.0
+author: Wmorales01
+description: Gives items and informational messages to players who are joining the server for the first time.
+
+api-version: 1.16
+
+commands:
+  warmwelcome:
+    aliases: [ww]

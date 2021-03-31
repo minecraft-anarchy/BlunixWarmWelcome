@@ -1,0 +1,41 @@
+welcome-message: "&6Welcome to the server!\n&9This is a default message."
+
+# Items the player will receive upon first join.
+welcome-items:
+  IRON_SWORD:
+    amount: 1
+  IRON_PICKAXE:
+    amount: 1
+  IRON_AXE:
+    amount: 1
+  IRON_SHOVEL:
+    amount: 1
+  IRON_HOE:
+    amount: 1
+  LEATHER_HELMET:
+    amount: 1
+    color: '#4040ff'
+  LEATHER_CHESTPLATE:
+    amount: 1
+    color: '#4040ff'
+  LEATHER_LEGGINGS:
+    amount: 1
+    color: '#4040ff'
+  LEATHER_BOOTS:
+    amount: 1
+    color: '#4040ff'
+    
+# Items can also be configured to have a lore and enchantments.
+# Ex.
+# welcome-items:
+#   IRON_SWORD:
+#     amount: 1
+#     lore:
+#       - 'line1'
+#       - 'line2'
+#     enchantments:
+#       FIRE_ASPECT: 2
+#       DAMAGE_ALL: 5
+#
+# Enchantment names must be entered using Spigot names, which can be found in the following link:
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
